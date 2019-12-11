@@ -592,7 +592,7 @@ namespace sratools2
             }
             catch ( ncbi::Exception const &e )
             {
-                std::cerr << e.what() << std::endl;
+                // std::cerr << "An error occured: " << e.what() << std::endl;
                 return EX_USAGE;
             }
             catch (std::exception const &e) {
